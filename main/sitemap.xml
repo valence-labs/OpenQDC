@@ -2,262 +2,210 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/index.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/cli.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/contribute.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/data_storage.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/dataset_upload.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/datasets.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/licensing.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/normalization_e0s.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/usage.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/basedataset.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/e0_dispatcher.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/formats.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/methods.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/properties.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/regressor.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/statistics.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/units.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/utils.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/3bpa.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/alchemy.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/ani.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/comp6.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/des.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/gdml.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/geom.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/iso_17.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/l7.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/maceoff.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/md22.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/metcalf.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/molecule3d.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/multixcqm9.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/nabladft.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/orbnet_denali.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/pcqm.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/proteinfragments.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/qm1b.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/qm7x.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/qmugs.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/qmx.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/revmd17.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/sn2_rxn.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/solvated_peptides.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/spice.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/splinter.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/tmqm.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/transition1x.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/vqm24.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/waterclusters.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/waterclusters3_30.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/API/datasets/x40.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
     <url>
          <loc>https://github.com/valence-labs/openQDC/main/tutorials/usage.html</loc>
-         <lastmod>2024-08-30</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-01-24</lastmod>
     </url>
 </urlset>
