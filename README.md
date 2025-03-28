@@ -20,7 +20,7 @@
 
 OpenQDC is an open-source hub of ML-ready quantum datasets. It contains 40+ quantum mechanics (QM) datasets, covering 1.5 billion geometrics across 70 atom species and 250+ QM methods that are curated and consolidated into a single, accessible hub. All of the datasets are available for download through just one line of code.
 
-### Installing OpenQDC 
+### Installing OpenQDC
 
 Use mamba:
 
