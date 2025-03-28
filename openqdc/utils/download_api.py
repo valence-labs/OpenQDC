@@ -14,8 +14,6 @@ import fsspec
 import gdown
 import requests
 import tqdm
-
-# from aiohttp import ClientTimeout
 from dotenv import load_dotenv
 from fsspec import AbstractFileSystem
 from fsspec.callbacks import TqdmCallback
@@ -25,6 +23,8 @@ from sklearn.utils import Bunch
 
 import openqdc.utils.io as ioqdc
 
+load_dotenv()
+
 
 @dataclass
 class FileSystem:
@@ -32,14 +32,11 @@ class FileSystem:
     A basic class to handle file system operations
     """
 
+    PUBLIC_ENDPOINT_URL = os.getenv("PUBLIC_ENDPOINT_URL", "https://fs.openqdc.io/v1")
+
     public_endpoint: Optional[AbstractFileSystem] = None
     private_endpoint: Optional[AbstractFileSystem] = None
     local_endpoint: AbstractFileSystem = LocalFileSystem()
-
-    def __init__(self):
-        load_dotenv()  # load environment variables from .env
-        self.KEY = os.getenv("CLOUDFARE_KEY", None)
-        self.SECRET = os.getenv("CLOUDFARE_SECRET", None)
 
     @property
     def public(self):
@@ -78,26 +75,15 @@ class FileSystem:
         if not self.is_connected:
             with warnings.catch_warnings():
                 warnings.simplefilter("ignore")  # No quota warning
-                self.public_endpoint = self.get_default_endpoint("public")
-                self.private_endpoint = self.get_default_endpoint("private")
-                # self.public_endpoint.client_kwargs = {"timeout": ClientTimeout(total=3600, connect=1000)}
 
-    def get_default_endpoint(self, endpoint: str) -> AbstractFileSystem:
-        """
-        Return a default endpoint for the given str [public, private]
-        """
-        if endpoint == "private":
-            return fsspec.filesystem(
-                "s3",
-                key=self.KEY,
-                secret=self.SECRET,
-                endpoint_url=ioqdc.request_s3fs_config()["endpoint_url"],
-            )
-        elif endpoint == "public":
-            # return fsspec.filesystem("https")
-            return fsspec.filesystem("s3", **ioqdc.request_s3fs_config())
-        else:
-            return self.local_endpoint
+                self.public_endpoint = fsspec.get_mapper(self.PUBLIC_ENDPOINT_URL).fs
+
+                self.private_endpoint = fsspec.filesystem(
+                    "s3",
+                    key=os.getenv("CLOUDFLARE_KEY", None),
+                    secret=os.getenv("CLOUDFLARE_SECRET", None),
+                    endpoint_url=os.getenv("CLOUDFLARE_ENDPOINT", None),
+                )
 
     def get_file(self, remote_path: str, local_path: str):
         """
