@@ -1,15 +1,10 @@
 """The BaseDataset defining shared functionality between all datasets."""
 
 import os
-
-try:
-    from collections.abc import Iterable
-except ImportError:
-    from collections import Iterable
 from functools import partial
 from itertools import compress
 from os.path import join as p_join
-from typing import Callable, Dict, List, Optional, Union
+from typing import Callable, Dict, Iterable, List, Optional, Union
 
 import numpy as np
 from ase import Atoms

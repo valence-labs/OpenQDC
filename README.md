@@ -20,7 +20,7 @@
 
 OpenQDC is an open-source hub of ML-ready quantum datasets. It contains 40+ quantum mechanics (QM) datasets, covering 1.5 billion geometrics across 70 atom species and 250+ QM methods that are curated and consolidated into a single, accessible hub. All of the datasets are available for download through just one line of code.
 
-### Installing OpenQDC 
+### Installing OpenQDC
 
 Use mamba:
 
@@ -29,7 +29,7 @@ mamba install -c conda-forge openqdc
 ```
 Tips: You can replace mamba by conda.
 
-Note: We highly recommend using a Conda Python distribution to install OpenQDC. The package is also pip installable: 
+Note: We highly recommend using a Conda Python distribution to install OpenQDC. The package is also pip installable:
 ```bash
 pip install openqdc
 ```
@@ -91,6 +91,6 @@ The CI runs tests and performs code quality checks for the following combination
 
 # How to cite
 
-All data presented in the OpenQDC are already published in scientific journals, full reference to the respective paper is attached to each dataset class. When citing data obtained from OpenQDC, you should cite both the original paper(s) the data come from and our paper on OpenQDC itself. 
+All data presented in the OpenQDC are already published in scientific journals, full reference to the respective paper is attached to each dataset class. When citing data obtained from OpenQDC, you should cite both the original paper(s) the data come from and our paper on OpenQDC itself.
 
 Stay tuned for the release of the paper

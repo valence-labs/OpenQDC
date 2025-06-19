@@ -27,8 +27,7 @@ _OPENQDC_CACHE_DIR = (
 
 _OPENQDC_DOWNLOAD_API = {
     "s3": "/openqdc/v1",
-    # "https" : "https://storage.openqdc.org/v1",
-    "gs": "https://storage.googleapis.com/qmdata-public/openqdc",
+    "https": "https://fs.openqdc.io/v1",
 }
 
 
@@ -62,11 +61,9 @@ def get_remote_cache(write_access=False) -> str:
     Returns the entry point based on the write access.
     """
     if write_access:
-        remote_cache = "openqdc/v1"  # "gs://qmdata-public/openqdc"
-        # remote_cache = "gs://qmdata-public/openqdc"
+        remote_cache = "openqdc/v1"
     else:
-        remote_cache = _OPENQDC_DOWNLOAD_API.get(os.environ.get("OPENQDC_DOWNLOAD_API", "s3"))
-        # remote_cache = "https://storage.googleapis.com/qmdata-public/openqdc"
+        remote_cache = _OPENQDC_DOWNLOAD_API.get(os.environ.get("OPENQDC_DOWNLOAD_API", "https"))
     return remote_cache
 
 
@@ -94,15 +91,6 @@ def pull_locally(local_path, overwrite=False):
     if not os.path.exists(local_path) or overwrite:
         API.get_file(remote_path, local_path)
     return local_path
-
-
-def request_s3fs_config():
-    import httpx
-
-    response = httpx.get("https://storage.openqdc.org/config.json")
-    response.raise_for_status()
-    config = response.json()
-    return config
 
 
 def copy_exists(local_path):
