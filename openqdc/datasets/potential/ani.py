@@ -148,7 +148,7 @@ class ANI1X(ANI1):
     ]
 
     __force_mask__ = [False, False, False, False, False, False, True, True]
-    __links__ = {"ani1ccx.hdf5.gz": "https://zenodo.org/record/4081692/files/293.hdf5.gz"}
+    __links__ = {"ani1x.hdf5.gz": "https://zenodo.org/record/4081694/files/292.hdf5.gz"}
 
     def convert_forces(self, x):
         return super().convert_forces(x) * 0.529177249  # correct the Dataset error
@@ -192,7 +192,7 @@ class ANI1CCX(ANI1):
         "TPNO-CCSD(T):cc-pVDZ Correlation Energy",
     ]
     force_target_names = []
-    __links__ = {"ani1x.hdf5.gz": "https://zenodo.org/record/4081694/files/292.hdf5.gz"}
+    __links__ = {"ani1ccx.hdf5.gz": "https://zenodo.org/record/4081692/files/293.hdf5.gz"}
 
     def __smiles_converter__(self, x):
         return x.decode("ascii")
